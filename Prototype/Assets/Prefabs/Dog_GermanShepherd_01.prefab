@@ -3763,6 +3763,7 @@ GameObject:
   - component: {fileID: 3489151930022541280}
   - component: {fileID: 3489151930029661376}
   - component: {fileID: 3489151930382220903}
+  - component: {fileID: 5311761318442944299}
   m_Layer: 0
   m_Name: Dog_GermanShepherd_01
   m_TagString: Dog
@@ -3853,6 +3854,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &5311761318442944299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3489151930022361490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868285114d0abf049a65242f4a20c013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 35
+  lowerBound: -10
 --- !u!1 &3489151930022362634
 GameObject:
   m_ObjectHideFlags: 0

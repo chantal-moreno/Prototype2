@@ -5320,6 +5320,7 @@ GameObject:
   - component: {fileID: 5406970253734788520}
   - component: {fileID: 5406970253725096296}
   - component: {fileID: 5406970252218178604}
+  - component: {fileID: 8677330912518550435}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Dog
@@ -5410,6 +5411,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 11
+--- !u!114 &8677330912518550435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5406970253734559832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868285114d0abf049a65242f4a20c013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 35
+  lowerBound: -10
 --- !u!1 &5406970253734562864
 GameObject:
   m_ObjectHideFlags: 0

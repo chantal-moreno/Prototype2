@@ -1903,6 +1903,7 @@ GameObject:
   - component: {fileID: 217440453334066129}
   - component: {fileID: 217440453326386457}
   - component: {fileID: 217440453195896005}
+  - component: {fileID: 4268506977479724714}
   m_Layer: 0
   m_Name: Dog_BorderCollie_01
   m_TagString: Dog
@@ -1993,6 +1994,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 12
+--- !u!114 &4268506977479724714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217440453333743777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868285114d0abf049a65242f4a20c013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 35
+  lowerBound: -10
 --- !u!1 &217440453333744457
 GameObject:
   m_ObjectHideFlags: 0

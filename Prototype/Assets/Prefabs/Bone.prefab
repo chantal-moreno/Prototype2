@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3154746009510552043}
   - component: {fileID: 3154746009509441427}
   - component: {fileID: 3154746008625203119}
+  - component: {fileID: -4536233636080857357}
   m_Layer: 0
   m_Name: Bone
   m_TagString: Projectile
@@ -95,4 +96,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  spin: 350
+--- !u!114 &-4536233636080857357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154746009507459415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868285114d0abf049a65242f4a20c013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 35
+  lowerBound: -10
